@@ -1,0 +1,9 @@
+github:
+  copilot:
+    chat:
+      instructions: |
+        You are assisting with the devtools-engine project, a multi-service AI development platform.
+        The project uses Python (FastAPI), TypeScript (Express), Go (Gin), Java (Spring Boot), and C# (ASP.NET Core).
+        Follow existing patterns in the codebase. Prefer async/await patterns.
+        Use dependency injection where applicable.
+        Write comprehensive tests for all new features.

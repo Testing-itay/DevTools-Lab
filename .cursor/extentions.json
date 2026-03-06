@@ -1,0 +1,10 @@
+{
+  "Extentions": [
+    { "name": "tab-complete", "enable": true },
+    { "name": "inline-chat", "enable": true },
+    { "name": "auto-import", "enable": false },
+    { "name": "smart-rename", "enable": true },
+    { "name": "code-lens", "enable": true },
+    { "name": "ai-commit-message", "enable": true }
+  ]
+}

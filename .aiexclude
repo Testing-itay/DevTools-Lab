@@ -1,0 +1,13 @@
+# Codex AI exclusion patterns
+node_modules/
+__pycache__/
+.git/
+*.pyc
+*.class
+bin/
+obj/
+target/
+build/
+dist/
+*.min.js
+*.min.css

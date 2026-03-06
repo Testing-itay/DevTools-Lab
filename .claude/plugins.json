@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    { "name": "code-review", "enable": true },
+    { "name": "auto-fix", "enable": false },
+    { "name": "security-scanner", "enabled": true },
+    { "name": "test-runner" },
+    { "name": "dependency-checker", "enable": true },
+    { "name": "performance-profiler", "enable": false },
+    { "name": "documentation-generator", "enable": true }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "model": "claude-sonnet-4-20250514",
+  "permissions": {
+    "allow_file_edit": true,
+    "allow_terminal": true,
+    "allow_web_search": false
+  },
+  "context": {
+    "include_patterns": ["src/**", "infrastructure/**"],
+    "exclude_patterns": ["**/node_modules/**", "**/__pycache__/**", "**/bin/**", "**/obj/**"]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "sqlite": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sqlite@2025.1.1"]
+    },
+    "git": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-git@2025.3.1"]
+    },
+    "mcp-server-fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch@0.6.2"]
+    },
+    "sentry": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sentry@2025.1.1"]
+    },
+    "splunk-logs": {
+      "url": "https://mcp.splunk.internal.example.com/sse"
+    },
+    "notion-workspace": {
+      "url": "https://mcp-api.notion.so/sse"
+    },
+    "snyk-security": {
+      "url": "https://mcp.snyk.io/v1/sse"
+    },
+    "risk-scorer": {
+      "command": "python",
+      "args": ["mcp_servers/risk_scorer_server.py", "--model", "v2"]
+    },
+    "code-reviewer": {
+      "command": "python",
+      "args": ["mcp_servers/code_reviewer_server.py"]
+    },
+    "migration-helper": {
+      "command": "node",
+      "args": ["mcp_servers/migration_helper_server.js"]
+    }
+  }
+}

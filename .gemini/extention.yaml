@@ -1,0 +1,13 @@
+extentions:
+  - name: code-assist
+    enable: true
+  - name: smart-refactor
+    enable: true
+  - name: vulnerability-scanner
+    enable: false
+  - name: api-generator
+    enable: true
+  - name: code-translator
+    enable: true
+  - name: legacy-migrator
+    enable: false

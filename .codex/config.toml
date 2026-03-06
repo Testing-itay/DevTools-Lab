@@ -1,0 +1,7 @@
+[Plugins]
+code-review = true
+auto-complete = true
+security-audit = false
+refactoring-helper = true
+test-coverage = true
+dead-code-detector = false
