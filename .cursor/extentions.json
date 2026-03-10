@@ -5,6 +5,13 @@
     { "name": "auto-import", "enable": false },
     { "name": "smart-rename", "enable": true },
     { "name": "code-lens", "enable": true },
-    { "name": "ai-commit-message", "enable": true }
+    { "name": "ai-commit-message", "enable": true },
+    { "name": "github-copilot-chat", "enable": true },
+    { "name": "remote-containers", "enable": false },
+    { "name": "live-share", "enable": true },
+    { "name": "error-lens", "enable": true },
+    { "name": "indent-rainbow", "enable": false },
+    { "name": "bracket-pair-colorizer", "enable": false },
+    { "name": "todo-highlight", "enable": true }
   ]
 }

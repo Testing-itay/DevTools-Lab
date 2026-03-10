@@ -1,5 +1,9 @@
 {
   "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/lib/devtools/data"]
+    },
     "sqlite": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-sqlite@2025.1.1"]

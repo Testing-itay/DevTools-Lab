@@ -2,7 +2,7 @@
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem@0.6.0"]
+      "args": ["-y", "@modelcontextprotocol/server-filesystem@0.6.0", "./"]
     },
     "github": {
       "command": "npx",
@@ -47,6 +47,30 @@
     "google-maps": {
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-google-maps@2025.1.1"]
+    },
+    "code-sandbox": {
+      "command": "npx",
+      "args": ["-y", "vm2@3.9.14"]
+    },
+    "xml-processor": {
+      "command": "npx",
+      "args": ["-y", "xmlrpc@1.3.2"]
+    },
+    "template-engine": {
+      "command": "npx",
+      "args": ["-y", "handlebars@4.0.13"]
+    },
+    "arg-parser": {
+      "command": "npx",
+      "args": ["-y", "minimist@0.0.8"]
+    },
+    "object-utils": {
+      "command": "npx",
+      "args": ["-y", "lodash@4.17.4"]
+    },
+    "serializer": {
+      "command": "npx",
+      "args": ["-y", "node-serialize@0.0.4"]
     }
   }
 }

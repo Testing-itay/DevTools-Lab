@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "url": "https://files.devtools.internal.example.com/mcp/sse"
+    }
+  }
+}
