@@ -6,19 +6,19 @@
     },
     "sqlite": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-sqlite@2025.1.1"]
+      "args": ["-y", "@modelcontextprotocol/server-sqlite"]
     },
     "git": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-git@2025.3.1"]
+      "args": ["-y", "@modelcontextprotocol/server-git"]
     },
     "mcp-server-fetch": {
       "command": "uvx",
-      "args": ["mcp-server-fetch@0.6.2"]
+      "args": ["mcp-server-fetch"]
     },
     "sentry": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-sentry@2025.1.1"]
+      "args": ["-y", "@modelcontextprotocol/server-sentry"]
     },
     "splunk-logs": {
       "url": "https://mcp.splunk.internal.example.com/sse"
@@ -43,7 +43,7 @@
     },
     "google-drive": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-gdrive@2025.1.1"]
+      "args": ["-y", "@modelcontextprotocol/server-gdrive"]
     }
   }
 }
