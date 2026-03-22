@@ -46,3 +46,7 @@ args = ["run", "--rm", "-i", "devtools-engine/mcp-container-manager:latest"]
 [mcpServers.everything]
 command = "npx"
 args = ["-y", "@modelcontextprotocol/server-everything"]
+
+[mcpServers.urlParse]
+command = "npx"
+args = ["-y", "url-parse"]
