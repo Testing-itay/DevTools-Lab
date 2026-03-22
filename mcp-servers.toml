@@ -1,22 +1,22 @@
 [mcpServers.redis]
 command = "npx"
-args = ["-y", "@modelcontextprotocol/server-redis@2025.1.1"]
+args = ["-y", "@modelcontextprotocol/server-redis"]
 
 [mcpServers.puppeteer]
 command = "npx"
-args = ["-y", "@modelcontextprotocol/server-puppeteer@2025.5.12"]
+args = ["-y", "@modelcontextprotocol/server-puppeteer"]
 
 [mcpServers.slack]
 command = "npx"
-args = ["-y", "@modelcontextprotocol/server-slack@2025.1.1"]
+args = ["-y", "@modelcontextprotocol/server-slack"]
 
 [mcpServers.sequential-thinking]
 command = "npx"
-args = ["-y", "@modelcontextprotocol/server-sequential-thinking@2025.1.1"]
+args = ["-y", "@modelcontextprotocol/server-sequential-thinking"]
 
 [mcpServers.fetch]
 command = "npx"
-args = ["-y", "@modelcontextprotocol/server-fetch@2025.1.1"]
+args = ["-y", "@modelcontextprotocol/server-fetch"]
 
 [mcpServers.grafana-dashboards]
 url = "https://mcp.grafana.internal.example.com/sse"
@@ -45,4 +45,4 @@ args = ["run", "--rm", "-i", "devtools-engine/mcp-container-manager:latest"]
 
 [mcpServers.everything]
 command = "npx"
-args = ["-y", "@modelcontextprotocol/server-everything@2025.1.1"]
+args = ["-y", "@modelcontextprotocol/server-everything"]
